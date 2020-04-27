@@ -42,6 +42,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration:none ;
+  color: rgb(206, 180, 180);
 }
 a:active,
 a:hover {
@@ -333,7 +335,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  /* margin-left: 1.45rem; */
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -343,6 +345,8 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  text-decoration: none;
+  height: 60px;
 }
 ol {
   margin-left: 1.45rem;
@@ -352,7 +356,7 @@ ol {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
   list-style-position: outside;
   list-style-image: none;
 }
@@ -509,13 +513,17 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  /* margin-bottom: calc(1.45rem / 2); */
+  text-decoration: none;
+  
 }
+
 ol li {
   padding-left: 0;
 }
 ul li {
   padding-left: 0;
+  list-style: none;
 }
 li > ol {
   margin-left: 1.45rem;
